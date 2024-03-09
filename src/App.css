@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    background: #fff;
+    z-index: 2001;
+    /* background: transparent; */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 2px 2px lightgray;
+}
+
+
+.header__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 150px; */
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+
+.header__container .header__nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.header__container .header__nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+}
+
+.header__container .header__nav ul a:hover {
+    opacity: 0.5;
+}
+
+.header__container .header__btn--part {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header__container .header__btn--part .login {
+    font-size: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+.header__container .header__btn--part .login:hover {
+    border: 1px solid black;
+    padding: 9px 14px;
+    border-radius: 9px;
+}
+
+.header__container .header__btn--part button {
+    color: black;
+    font-size: 16px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: 1.5px solid black;
+    border-radius: 45px;
+    background: transparent;
+}
+
+.header__container .header__btn--part button:hover {
+    color: white;
+    background: black;
+}
+
+.section__container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: safe;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer {
+    background: #fff;
+    z-index: 2002;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 2px lightgray;
+}
+.footer__container {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.footer__container h1 {
+    text-decoration: none;
+    color: rgb(28, 28, 50);
+    
+}
